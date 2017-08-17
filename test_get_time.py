@@ -11,7 +11,7 @@ print newtime
 print newtime.text
 
 ret = newtime.text.split("\n")
-# print ret
-print ret[2]
+if ret[2].find("Gesendet") >= 0:
+    print "ret" + ret[2][10:len(ret[2])]
 
 DRIVER.quit()

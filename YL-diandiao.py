@@ -293,14 +293,12 @@ def reget_time(oldtime, url):
     # DRIVER.get(url)
     DRIVER.get("D:\\Work\\shmeof_git\\YL-diandiao\\test_url\\305-7524038-4629161.html")
     try:
-        newtime = DRIVER.find_element_by_xpath('//*[@id="headBlock"]/text()[2]')
-        # print "时间多少个：" + str(len(newtime))
-        print "before"
-        print newtime
-        print "got"
+        newtime = DRIVER.find_element_by_xpath('//*[@id="headBlock"]')
+        ret = newtime.text.split("\n")
+        if ret[2].find("Gesendet") >= 0:
+            newtime = ret[2][10:len(ret[2])]
     except Exception,e:
         print str(e)
-
     return newtime
 
 def write_to_excel(Datum_toclick, Absender_toclick, Betreff_Content_toclick, Betreff_Url_toclick, Referenz_toclick):
