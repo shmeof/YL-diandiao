@@ -1,11 +1,11 @@
 
-#技术点
+##技术点
 	Python
 	Selenium
 	Chrome
 	Chromedriver
 
-#技术功能点：
+##技术功能点：
 	在浏览器中模拟点击
 	在浏览器中模拟输入
 	在浏览器中抓包分析
@@ -16,23 +16,23 @@ Python实现模拟点击
 	selenium + firefox 或者 selenium + phantomjs
 	
 	selenium + chrome
-#业务功能点：
+##业务功能点：
 	1、自动回复邮件，回复内容为：无需回复
 	2、支持自动回复某时间点之前的邮件
 	3、已回复的邮件列表，自动保存到文件
 
-#使用方法：
+##使用方法：
 	1、下载对应Chrome浏览器的Chromedriver，放到Chrome的安装目录，如：C:\Program Files (x86)\Google\Chrome\Application
 	2、
 
 	
-#推荐
+##推荐
 	xpath定位方法：
 	1、用Chrome打开网页
 	2、Chrome右上角更多功能入口->更多工具->开发者工具->
 	3、Elements子项，找到对应的元素，鼠标右键->Copy->即可获取到各种形式的元素定位方式
 
-#参考：
+##参考：
 	python 安装selenium环境 实现模拟点击模拟输入
 	http://www.cnblogs.com/ldy-miss/p/6689767.html
 	chromedriver.exe
