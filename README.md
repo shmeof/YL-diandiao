@@ -24,7 +24,7 @@
 		http://blog.csdn.net/qijingpei/article/details/68925392
 		http://chromedriver.storage.googleapis.com/index.html
 	2、放到Chrome的安装目录，如：C:\Program Files (x86)\Google\Chrome\Application
-	3、...
+	3、将bin目录下的文件夹"YL-diandiao"拷贝到D盘根目录，双击运行即可
 
 ## 推荐：
 	xpath 元素定位方法：
