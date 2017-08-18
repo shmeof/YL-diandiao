@@ -1,4 +1,4 @@
-# 技术点
+# 技术点：
 	Python
 	Selenium
 	Chrome
@@ -9,7 +9,7 @@
 	在浏览器中模拟输入
 	在浏览器中抓包分析
 
-# 浏览器模拟点击的几种方式
+# 浏览器模拟点击的几种方式：
 	selenium + phantomjs
 	selenium + firefox
 	selenium + chrome
@@ -25,6 +25,8 @@
 		http://chromedriver.storage.googleapis.com/index.html
 	2、放到Chrome的安装目录，如：C:\Program Files (x86)\Google\Chrome\Application
 	3、将bin目录下的文件夹"YL-diandiao"拷贝到D盘根目录，双击运行即可
+	
+## 打包成exe：
 
 ## 推荐：
 	xpath 元素定位方法：
