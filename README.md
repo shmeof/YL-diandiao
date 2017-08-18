@@ -26,7 +26,11 @@
 	2、放到Chrome的安装目录，如：C:\Program Files (x86)\Google\Chrome\Application
 	3、将bin目录下的文件夹"YL-diandiao"拷贝到D盘根目录，双击运行即可
 	
-## 打包成exe：
+## 在Windows下打包成exe：
+	1、cd到YL-diandiao目录
+	2、python setup.py py2exe
+	3、拷贝Python安装目录下..\Python27\Lib\site-packages\selenium\webdriver\remote中的两个文件getAttribute.js、isDisplayed.js到YL-diandiao\dist\selenium\webdriver\remote
+	4、双击YL-diandiao\dist\YL-diandiao.exe即可运行
 
 ## 推荐：
 	元素定位方法A：
